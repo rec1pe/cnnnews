@@ -1,8 +1,8 @@
 {
-  "name-web":"CNN News",
+  "name-web":"BBC News",
   "author":"news",
   "remove-comment-html":true,
-  "target":"https://edition.cnn.com",
+  "target":"https://bbc.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"https://edition.cnn.com",
+      "target":"https://bbc.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://edition.cnn.com",
+          "target":"https://bbc.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"https://edition.cnn.com",
+      "target":"https://bbc.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
