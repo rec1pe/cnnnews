@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"edition.cnn.com",
+      "target":"https://edition.cnn.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "target":"edition.cnn.com",
+      "target":"https://edition.cnn.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
